@@ -24,7 +24,7 @@ Website Point Blank V37 - V42 - V3.24 (need to modify only db connection and que
 
 SCREEN ERRORE CONNESSIONE DRIVER PDO / ERROR CONNECTION DRIVER PDO
 
-![8](https://user-images.githubusercontent.com/17235041/164033314-ed0bb598-8ef7-4e55-ad9d-bc3422e5ec9e.png)
+![8](https://user-images.githubusercontent.com/17235041/164033560-4b2ce820-c57b-41e9-a948-966b810eb898.png)
 
 SCREENS HOME
 
