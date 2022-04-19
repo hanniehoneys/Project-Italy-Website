@@ -45,7 +45,7 @@ SCREEN SCARICA IL GIOCO / DOWNLOADS
 
 SCREEN ACCEDI / LOGIN
 
-
+![7](https://user-images.githubusercontent.com/17235041/164032300-eda45ab0-7478-4abc-95d7-6588337b9185.png)
 
 
 
