@@ -22,8 +22,9 @@ Website Point Blank V37 - V42 - V3.24 (need to modify only db connection and que
 [X] Based on Template Cavalier Game Studio HTML <br />
 
 
+SCREEN ERRORE CONNESSIONE DRIVER PDO / ERROR CONNECTION DRIVER PDO
 
-
+![8](https://user-images.githubusercontent.com/17235041/164033314-ed0bb598-8ef7-4e55-ad9d-bc3422e5ec9e.png)
 
 SCREENS HOME
 
@@ -46,10 +47,5 @@ SCREEN SCARICA IL GIOCO / DOWNLOADS
 SCREEN ACCEDI / LOGIN
 
 ![7](https://user-images.githubusercontent.com/17235041/164032300-eda45ab0-7478-4abc-95d7-6588337b9185.png)
-
-
-
-
-
 
 
