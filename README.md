@@ -2,9 +2,7 @@
 
 Website Point Blank V37 - V42 - V3.24
 
--[] \n
--[] \n
--[] 
--[] 
--[] 
--[] 
+-[X] Based Template Cavalier Game Studio HTML
+
+
+
