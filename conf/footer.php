@@ -9,7 +9,7 @@
 <div class="footer-content">
 <div class="footer-head">
 <h4><?php echo $sitename;?></h4><br />
-<a href="/"><img src="../img/logo/footer-mini.png" width="40%" height="auto"></img></a>
+<a href="/"><img src="../../img/logo/footer-mini.png" width="40%" height="auto"></img></a>
 </div>
 </div>
 </div>
@@ -35,7 +35,7 @@
 <div class="footer-head">
 <h4>Seguici sui social</h4>
 <div class="footer-contacts">
-<a href="/"><img src="../img/logo/footer.png" width="60%" height="auto"></img></a>
+<a href="/"><img src="../../img/logo/footer.png" width="60%" height="auto"></img></a>
 </div>
 <div class="footer-icons">
 <ul>

@@ -15,7 +15,7 @@
 <div class="single-about">
 <div class="feature-icon"><i class="icon icon-cloud"></i></div>
 <div class="feature-text">
-<h4>Utenti Registrati: <span class="pull-right">0</span></h4>
+<h4>Utenti Registrati: <span class="pull-right" style="color:#EC9123">0</span></h4>
 </div>
 </div>
 </div>
@@ -23,7 +23,7 @@
 <div class="single-about">
 <div class="feature-icon"><i class="icon icon-cloud"></i></div>
 <div class="feature-text">
-<h4>Stato Server: <span class="pull-right">ONLINE</span></h4>
+<h4>Stato Server: <span class="pull-right" style="color:#EC9123">ONLINE</span></h4>
 </div>
 </div>
 </div>
@@ -31,7 +31,7 @@
 <div class="single-about">
 <div class="feature-icon"><i class="icon icon-cloud"></i></div>
 <div class="feature-text">
-<h4>Utenti Online: <span class="pull-right">0</span></h4>
+<h4>Utenti Online: <span class="pull-right" style="color:#EC9123">0</span></h4>
 </div>
 </div>
 </div>

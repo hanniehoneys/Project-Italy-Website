@@ -5,7 +5,7 @@
 <div class="main-overly"></div>
 <div class="intro-carousel">
 <div class="intro-content">
-<div class="slider-images"><img src="img/slider/s1.jpg" alt="" /></div>
+<div class="slider-images"><img src="../../img/slider/s1.jpg" alt="" /></div>
 <div class="slider-content">
 <div class="container">
 <div class="row">
@@ -19,7 +19,7 @@
 </div>
 </div>
 <div class="intro-content">
-<div class="slider-images"><img src="img/slider/s6.jpg" alt="" /></div>
+<div class="slider-images"><img src="../../img/slider/s6.jpg" alt="" /></div>
 <div class="slider-content">
 <div class="container">
 <div class="row">
@@ -33,7 +33,7 @@
 </div>
 </div>
 <div class="intro-content">
-<div class="slider-images"><img src="img/slider/s3.jpg" alt="" /></div>
+<div class="slider-images"><img src="../../img/slider/s3.jpg" alt="" /></div>
 <div class="slider-content">
 <div class="container">
 <div class="row">
@@ -47,4 +47,4 @@
 </div>
 </div>
 </div>
-<?php include_once('conf/status.php'); ?>
+<?php include_once('../../conf/status.php'); ?>
