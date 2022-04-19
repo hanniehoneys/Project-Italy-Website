@@ -218,13 +218,8 @@ div#preloader {
     padding: 0.2em 0;
 }
 
-.area-padding {
-    padding: 100px 0px;
-}
-
-.page-padding {
-    padding: 130px 0px 100px;
-}
+.area-padding {padding: 100px 0px;}
+.page-padding {padding: 130px 0px 100px;}
 
 .section-headline {
     padding-bottom: 90px;
@@ -239,17 +234,9 @@ div#preloader {
     text-transform: capitalize;
 }
 
-.section-headline.white-headline h3 {
-    color: #fff;
-}
-
-.section-headline.white-headline p {
-    color: #f3f0ff;
-}
-
-.section-headline.text-left {
-    margin-bottom: 30px;
-}
+.section-headline.white-headline h3 {color: #fff;}
+.section-headline.white-headline p {color: #f3f0ff;}
+.section-headline.text-left {margin-bottom: 30px;}
 
 .section-headline::after {
     background: url(../img/about/line.png);
@@ -316,13 +303,8 @@ div#preloader {
     transition: 0.4s;
 }
 
-:focus {
-    outline: -webkit-focus-ring-color auto 0px;
-}
-
-.parallax-bg {
-    position: relative;
-}
+:focus {outline: -webkit-focus-ring-color auto 0px;}
+.parallax-bg {position: relative;}
 
 .parallax-bg:before {
     position: absolute;
