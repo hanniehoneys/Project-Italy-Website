@@ -31,11 +31,25 @@ SCREENS HOME
 ![2](https://user-images.githubusercontent.com/17235041/164019785-066435ba-4c2f-4d38-88d1-07f7da73b7ca.png)
 ![3](https://user-images.githubusercontent.com/17235041/164019784-47ffdfe1-7c02-4e1a-b65d-2af2d15c72ca.png)
 
-SCREENS REGISTRAZIONE / REGISTER
+SCREEN REGISTRAZIONE / REGISTER
 
 ![4](https://user-images.githubusercontent.com/17235041/164021600-2aafffe7-9606-4d11-a028-ed2c98bc6a6a.png)
 
-SCREENS 404
+SCREEN 404
 
 ![5](https://user-images.githubusercontent.com/17235041/164022163-eec5553a-23f2-4298-bc29-254349e034a7.png)
+
+SCREEN SCARICA IL GIOCO / DOWNLOADS
+
+![6](https://user-images.githubusercontent.com/17235041/164022542-24993969-371f-4250-97af-d6d86ae2a9c4.png)
+
+SCREEN ACCEDI / LOGIN
+
+
+
+
+
+
+
+
 
