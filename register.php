@@ -1,8 +1,5 @@
 <?php
-require_once('conf/config.php');
-
-
-
+require_once('./conf/config.php');
 
 
 ?>
@@ -14,22 +11,22 @@ require_once('conf/config.php');
 <title><?php echo $sitename; ?> - Registrazione</title>
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico" />
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/owl.carousel.css" />
-<link rel="stylesheet" href="css/owl.transitions.css" />
-<link rel="stylesheet" href="css/meanmenu.min.css" />
-<link rel="stylesheet" href="css/font-awesome.min.css" />
-<link rel="stylesheet" href="css/icon.css" />
-<link rel="stylesheet" href="css/flaticon.css" />
-<link rel="stylesheet" href="css/magnific.min.css" />
-<link rel="stylesheet" href="css/venobox.css" />
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/responsive.css" />
+<link rel="shortcut icon" type="image/x-icon" href="../../img/logo/favicon.ico" />
+<link rel="stylesheet" href="../../css/bootstrap.min.css" />
+<link rel="stylesheet" href="../../css/owl.carousel.css" />
+<link rel="stylesheet" href="../../css/owl.transitions.css" />
+<link rel="stylesheet" href="../../css/meanmenu.min.css" />
+<link rel="stylesheet" href="../../css/font-awesome.min.css" />
+<link rel="stylesheet" href="../../css/icon.css" />
+<link rel="stylesheet" href="../../css/flaticon.css" />
+<link rel="stylesheet" href="../../css/magnific.min.css" />
+<link rel="stylesheet" href="../../css/venobox.css" />
+<link rel="stylesheet" href="../../css/style.css" />
+<link rel="stylesheet" href="../../css/responsive.css" />
 </head>
 <body>
 <div id="preloader"></div>
-<?php include_once('conf/header_register.php'); ?>
+<?php include_once('./conf/header_register.php'); ?>
 <div class="page-area">
 <div class="breadcumb-overlay"></div>
 <div class="container">
@@ -50,7 +47,7 @@ require_once('conf/config.php');
 <div class="container">
 <div class="row">
 <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3 col-sm-12 col-12">
-<form action="http://pbprogress.site/index.php/auth/register" id="register_form" autocomplete="off" method="post" accept-charset="utf-8">
+<form action="#" id="register_form" autocomplete="off" method="post" accept-charset="utf-8">
 <div class="form-group"><label>Nome Utente</label><input type="text" name="username" id="username" class="form-control" placeholder="" autofocus="" required=""></div>
 <div class="form-group"><label>Indirizzo Email</label><input type="email" name="email" id="email" class="form-control" placeholder="" required=""></div>
 <div class="form-group"><label>Password</label><input type="password" name="password" id="password" class="form-control" placeholder="" required=""></div>
@@ -68,17 +65,17 @@ require_once('conf/config.php');
 </div>
 </div>
 </div>
-<?php include_once('conf/footer.php'); ?>
+<?php include_once('./conf/footer.php'); ?>
 </body>
-<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-<script src="js/vendor/jquery-1.12.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/magnific.min.js"></script>
-<script src="js/venobox.min.js"></script>
-<script src="js/jquery.meanmenu.js"></script>
-<script src="js/form-validator.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
+<script src="../../js/vendor/jquery-1.12.4.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/owl.carousel.min.js"></script>
+<script src="../../js/isotope.pkgd.min.js"></script>
+<script src="../../js/magnific.min.js"></script>
+<script src="../../js/venobox.min.js"></script>
+<script src="../../js/jquery.meanmenu.js"></script>
+<script src="../../js/form-validator.min.js"></script>
+<script src="../../js/plugins.js"></script>
+<script src="../../js/main.js"></script>
 </html>
