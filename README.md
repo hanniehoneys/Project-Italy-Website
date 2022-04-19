@@ -35,5 +35,7 @@ SCREENS REGISTRAZIONE / REGISTER
 
 ![4](https://user-images.githubusercontent.com/17235041/164021600-2aafffe7-9606-4d11-a028-ed2c98bc6a6a.png)
 
+SCREENS 404
 
+![5](https://user-images.githubusercontent.com/17235041/164022163-eec5553a-23f2-4298-bc29-254349e034a7.png)
 
