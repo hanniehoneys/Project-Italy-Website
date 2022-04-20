@@ -2,17 +2,17 @@
 date_default_timezone_set("Europe/Rome");
 require_once('db.php');
 
+$md5decryptkey = 'SicilyServer2022';
 
-
-
-
-
-	
-
-
-
-
-/* CONNESSIONE AL DATABASE */
-$siteurl = "http://mypointblank.servegame.com/";
+$siteurl = "http://mypointblank.servegame.com"; //SENZA SLASH SENNO' LE AGGIUNGE AI LINK
 $sitename = "Project Italy";
+
+/* CONTROLLO STATO SERVER */
+$checkauthport = @fsockopen('192.168.1.10', 39190);
+$checkgameport = @fsockopen('192.168.1.10', 39191);
+$checkbattleport = @fsockopen('192.168.1.10', 40009);
+
+session_start();
+session_regenerate_id();
+
 ?>

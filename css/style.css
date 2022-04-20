@@ -486,7 +486,6 @@ div#preloader {
 .navbar-default .navbar-toggle:focus {
     background: none;
 }
-
 .main-menu ul.nav li ul.sub-menu {
     background: #0C1925;
     border-top: 2px solid #EC9123;
@@ -496,18 +495,14 @@ div#preloader {
     top: 115%;
     transition: all 0.3s ease 0s;
     visibility: hidden;
-    width: 110px;
+    width: 120px;
     z-index: -99;
     border-radius: 0px 0px 10px 10px;
 }
 
-.pagess {
-    position: relative;
-}
 
-.navbar.navbar-default {
-    float: right;
-}
+.pagess {position: relative;}
+.navbar.navbar-default {float: right;}
 
 .main-menu ul.nav li ul.sub-menu li {
     border-bottom: 1px solid #101E2C;
@@ -617,7 +612,7 @@ div#preloader {
     top: 0;
     width: 100%;
     z-index: 999999;
-    box-shadow: 0px 0px 5px #000, -2px -2px 5px #000;
+    box-shadow: 0px 0px 5px #ec9123, -2px -2px 5px #000;
     background: rgba(16, 30, 44, 0.95) none repeat scroll 0 0;
 }
 

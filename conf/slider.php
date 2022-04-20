@@ -1,4 +1,5 @@
 <?php
+require_once('./conf/config.php');
 
 ?>
 <div class="intro-area">
@@ -12,7 +13,7 @@
 <div class="col-md-12 text-center">
 <div class="layer-1-2"><h1 class="title2">Benvenuti su <?php echo $sitename; ?></h1></div>
 <div class="layer-1-1 hidden-xs"><p>Server in fase di Beta Test. Tieniti aggiornato attraverso le notizie.</p></div>
-<div class="layer-1-3"><a href="#" class="ready-btn">Registrati</a> <a href="#" class="ready-btn">Accedi</a></div>
+<div class="layer-1-3"><a href="../../register.php" class="ready-btn">Registrati</a> <a href="../../login.php" class="ready-btn">Accedi</a></div>
 </div>
 </div>
 </div>
@@ -26,7 +27,7 @@
 <div class="col-md-12 text-center">
 <div class="layer-1-2"><h1 class="title2">Versione Client 3.24</h1></div>
 <div class="layer-1-1 hidden-xs"><p>Server in fase di Beta Test. Tieniti aggiornato attraverso le notizie.</p></div>
-<div class="layer-1-3"><a href="#" class="ready-btn">Registrati</a> <a href="#" class="ready-btn">Accedi</a></div>
+<div class="layer-1-3"><a href="../../register.php" class="ready-btn">Registrati</a> <a href="../../login.php" class="ready-btn">Accedi</a></div>
 </div>
 </div>
 </div>
@@ -40,11 +41,10 @@
 <div class="col-md-12 text-center">
 <div class="layer-1-2"><h1 class="title2">Server Quad-Core SSD</h1></div>
 <div class="layer-1-1 hidden-xs"><p>Server Quad-Core dotato di SSD. L'ideale per giocare in fluidità.</p></div>
-<div class="layer-1-3"><a href="#" class="ready-btn">Registrati</a> <a href="#" class="ready-btn">Accedi</a></div>
+<div class="layer-1-3"><a href="../../register.php" class="ready-btn">Registrati</a> <a href="../../login.php" class="ready-btn">Accedi</a></div>
 </div>
 </div>
 </div>
 </div>
 </div>
 </div>
-<?php include_once('../../conf/status.php'); ?>

@@ -55,7 +55,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">
-<div class="copyright"><p>Copyright © <?php echo date("Y");?> <a href="/"><?php echo $sitename;?></a>. Tutti i diritti sono riservati.</p></div>
+<div class="copyright"><p>Copyright © <?php echo date("Y");?>. Coding by <a href="/"><?php echo $sitename;?></a>. Tutti i diritti sono riservati. <br />Template: <a href="/">Cavalier Games Studio HTML</a>.</p></div>
 </div>
 </div>
 </div>
