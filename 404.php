@@ -1,5 +1,5 @@
 <?php
-require_once('conf/config.php');
+require_once('./conf/config.php');
 
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ require_once('conf/config.php');
 </head>
 <body>
 <div id="preloader"></div>
-<?php include_once('conf/header_404.php'); ?>
+<?php include_once('./conf/header_404.php'); ?>
 <div class="page-area">
 <div class="breadcumb-overlay"></div>
 <div class="container">
@@ -63,7 +63,7 @@ require_once('conf/config.php');
 </div>
 </div>
 <div class="clearfix"></div>
-<?php include_once('conf/footer.php'); ?>
+<?php include_once('./conf/footer.php'); ?>
 </body>
 <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
