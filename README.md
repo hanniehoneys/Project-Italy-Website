@@ -6,7 +6,7 @@ ITA
 
 [X] Basato sul Template Cavalier Game Studio HTML <br />
 [X] Codato per Lavorare con PDO per PostgreSQL e MySQL <br />
-[X] Codato lo Stato Server <br />
+[X] Codato lo Stato Server (tramite verifica delle porte 39190, 39191, 40009) <br />
 [X] Codato il Login & Logout <br />
 
 
@@ -19,7 +19,7 @@ Website Point Blank V37 - V42 - V3.24 (need to modify only db connection and que
 
 [X] Based on Template Cavalier Game Studio HTML <br />
 [X] Modified for Working with PDO for PostgreSQL and MySQL <br />
-[X] Coded the Server Status on Info Server  <br />
+[X] Coded the Server Status on Info Server (do a check if ports 39190, 39191, 40009 are opened)  <br />
 [X] Coded Login & Logout <br />
 
 
