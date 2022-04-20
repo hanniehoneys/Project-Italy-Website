@@ -7,7 +7,8 @@ ITA
 [X] Basato sul Template Cavalier Game Studio HTML <br />
 [X] Codato per Lavorare con PDO per PostgreSQL e MySQL <br />
 [X] Codato lo Stato Server <br />
-[X] Based on Template Cavalier Game Studio HTML <br />
+[X] Codato il Login & Logout <br />
+
 
 
 
@@ -19,7 +20,7 @@ Website Point Blank V37 - V42 - V3.24 (need to modify only db connection and que
 [X] Based on Template Cavalier Game Studio HTML <br />
 [X] Modified for Working with PDO for PostgreSQL and MySQL <br />
 [X] Coded the Server Status on Info Server  <br />
-[X] Based on Template Cavalier Game Studio HTML <br />
+[X] Coded Login & Logout <br />
 
 
 SCREEN ERRORE CONNESSIONE DRIVER PDO / ERROR CONNECTION DRIVER PDO
