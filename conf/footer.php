@@ -19,12 +19,12 @@
 <h4>Links Utili</h4>
 <div class="footer-services-link">
 <ul class="footer-list">
-<li><a href="#">Home</a></li>
-<li><a href="#">Registrati</a></li>
-<li><a href="#">Classifica Giocatori</a></li>
-<li><a href="#">Classifica Clans</a></li>
-<li><a href="#">Scarica il Gioco</a></li>
-<li><a href="#">Accedi</a></li>
+<li><a href="/">Home</a></li>
+<li><a href="../../register.php">Registrati</a></li>
+<li><a href="../../player_rank.php">Classifica Giocatori</a></li>
+<li><a href="../../clan_rank.php">Classifica Clans</a></li>
+<li><a href="../../download.php">Scarica il Gioco</a></li>
+<li><a href="../../login.php">Accedi</a></li>
 </ul>
 </div>
 </div>
@@ -55,7 +55,7 @@
 <div class="container">
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">
-<div class="copyright"><p>Copyright © <?php echo date("Y");?>. Coding by <a href="/"><?php echo $sitename;?></a>. Tutti i diritti sono riservati. <br />Template: <a href="/">Cavalier Games Studio HTML</a>.</p></div>
+<div class="copyright"><p>Copyright © <?php echo date("Y");?>. <br />Template: <a href="/">Cavalier Games Studio HTML</a>. Coding by <a href="/"><?php echo $sitename;?></a>. <br />Tutti i diritti sono riservati.</p></div>
 </div>
 </div>
 </div>

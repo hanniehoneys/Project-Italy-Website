@@ -14,7 +14,7 @@ include_once('./conf/config.php');
 <div class="about-feature">
 <div class="col-md-4 col-sm-4 col-xs-12">
 <div class="single-about">
-<div class="feature-icon"><i class="icon icon-cloud"></i></div>
+<div class="feature-icon"><i class="fa fa-users"></i></div>
 <div class="feature-text">
 <h4>Utenti Registrati: <span class="pull-right" style="color:#EC9123"><?php echo $check_user_register = $db->query('SELECT * FROM accounts')->rowCount(); ?></span></h4>
 </div>
@@ -22,7 +22,7 @@ include_once('./conf/config.php');
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
 <div class="single-about">
-<div class="feature-icon"><i class="icon icon-cloud"></i></div>
+<div class="feature-icon"><i class="fa fa-server"></i></div>
 <div class="feature-text">
 <center><h4>Stato Server</h4></center>
 <?php if ($checkauthport) { ?>
@@ -45,7 +45,7 @@ include_once('./conf/config.php');
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12">
 <div class="single-about">
-<div class="feature-icon"><i class="icon icon-cloud"></i></div>
+<div class="feature-icon"><i class="fa fa-gamepad"></i></div>
 <div class="feature-text">
 <h4>Utenti Online: <span class="pull-right" style="color:#EC9123"><?php echo $check_user_online = $db->query("SELECT * FROM accounts WHERE online = 't'")->rowCount(); ?></span></h4>
 </div>
