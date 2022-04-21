@@ -10,7 +10,7 @@ ITA
 [X] Codato il Login & Logout <br />
 [O] Coding Dashboard <br />
 [X] Aggiornata la Sicurezza Generale e Aggiunta la Pagina 403 - Accesso Negato, robots.txt, sitemap.xml <br />
-[X] Aggiornata la Versione di Jquery dalla <b>jquery-1.12.4.min.js</b> alla <b>jquery-2.2.4.min.js <br />
+[X] Aggiornata la Versione di Jquery dalla <b>jquery-1.12.4.min.js</b> alla <b>jquery-2.2.4.min.js</b> <br />
 
 
 
@@ -24,7 +24,7 @@ Website Point Blank V37 - V42 - V3.24 (need to modify only db connection and que
 [X] Coded Login & Logout <br />
 [O] Coding Dashboard <br />
 [X] Improved Security and added 403 Error Access Denied Page, robots.txt, sitemap.xml <br />
-[X] Upgraded Jquery Version from <b>jquery-1.12.4.min.js</b> to <b>jquery-2.2.4.min.js <br />
+[X] Upgraded Jquery Version from <b>jquery-1.12.4.min.js</b> to <b>jquery-2.2.4.min.js</b> <br />
   
   
   
