@@ -9,6 +9,7 @@ ITA
 [X] Codato lo Stato Server (tramite verifica delle porte 39190, 39191, 40009) <br />
 [X] Codato il Login & Logout <br />
 [O] Coding Dashboard <br />
+[X] Aggiornata la Sicurezza Generale e Aggiunta la Pagina 403 - Accesso Negato, robots.txt, sitemap.xml <br />
 
 
 
@@ -22,6 +23,7 @@ Website Point Blank V37 - V42 - V3.24 (need to modify only db connection and que
 [X] Coded the Server Status on Info Server (do a check if ports 39190, 39191, 40009 are opened)  <br />
 [X] Coded Login & Logout <br />
 [O] Coding Dashboard <br />
+[X] Improved Security and added 403 Error Access Denied Page, robots.txt, sitemap.xml <br />
 
 
 SCREENS HOME
