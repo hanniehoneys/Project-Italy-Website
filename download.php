@@ -92,7 +92,7 @@ Dimensione: 3.96 GB<br><br>
 <?php include_once('./conf/footer.php'); ?>
 </body>
 <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
-<script src="../../js/vendor/jquery-1.12.4.min.js"></script>
+<script src="../../js/vendor/jquery-2.2.4.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
 <script src="../../js/owl.carousel.min.js"></script>
 <script src="../../js/isotope.pkgd.min.js"></script>
