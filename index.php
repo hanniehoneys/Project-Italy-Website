@@ -31,6 +31,7 @@ if (isset($_SESSION['player_id'])) header('Location: dashboard.php');
 <?php include_once('./conf/status.php'); ?>
 <?php include_once('./conf/footer.php'); ?>
 </body>
+<?php include_once('./conf/google_analytics.php'); ?>
 <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 <script src="../../js/vendor/jquery-2.2.4.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>

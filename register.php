@@ -1,5 +1,39 @@
 <?php
 require_once('./conf/config.php');
+if (isset($_SESSION['player_id'])) header('Location: dashboard.php');
+
+$player_login = $_POST['username'];
+$player_email = $_POST['email'];
+$player_password = $_POST['password'];
+$player_confirm_password = $_POST['confirm_password'];
+$token = hash_hmac('md5', $player_login, $md5decryptkey);
+
+if (isset($_POST['submit'])) { 
+
+$check_create_account = $db->prepare("SELECT * FROM accounts WHERE login = :login AND email = :email AND password = :password");
+$check_create_account->bindParam(":login", $player_login);
+$check_create_account->bindParam(":email", $player_email);
+$check_create_account->bindParam(":password", hash_hmac('md5', $player_password, $md5decryptkey));
+$check_create_account->execute();
+$check_account_exist = $check_create_account->rowCount();
+if ($check_account_exist < 1) {
+$check_account_exist = null;
+try{	
+$create_account = $db->prepare("INSERT INTO accounts (login, email, password, token, lastip) VALUES (:login, :email, :password, :token, :lastip)");
+$create_account->bindParam(':login', $player_login);
+$create_account->bindParam(':email', $player_email);
+$create_account->bindParam(':password', hash_hmac('md5', $player_password, $md5decryptkey));
+$create_account->bindParam(':token', $token);
+$create_account->bindParam(':lastip', $_SERVER['REMOTE_ADDR']);
+$create_account->execute();
+}
+catch(PDOException $e){
+die("Connection to database failed: " . $e->getMessage());
+}
+
+}
+$create_account = null;
+}
 
 
 ?>
@@ -47,18 +81,19 @@ require_once('./conf/config.php');
 <div class="container">
 <div class="row">
 <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3 col-sm-12 col-12">
-<form action="#" id="register_form" autocomplete="off" method="post" accept-charset="utf-8">
+<form action="" id="register_form" autocomplete="off" method="post" accept-charset="utf-8">
 <div class="form-group"><label>Nome Utente</label><input type="text" name="username" id="username" class="form-control" placeholder="" autofocus="" required=""></div>
 <div class="form-group"><label>Indirizzo Email</label><input type="email" name="email" id="email" class="form-control" placeholder="" required=""></div>
 <div class="form-group"><label>Password</label><input type="password" name="password" id="password" class="form-control" placeholder="" required=""></div>
 <div class="form-group"><label>Conferma Password</label><input type="password" name="confirm_password" id="confirm_password" class="form-control" placeholder="" required=""></div>
-<br>
+<br />
+<!--<center><div class="form-group g-recaptcha" data-sitekey="<?php //echo $google_site_key; ?>"></div></center><br />-->
 <div class="form-group">
-<input type="submit" id="submit" class="btn btn-block btn-success" value="Registrati">
+<input type="submit" name="submit" id="submit" class="btn btn-block btn-success" value="Registrati">
 <br>
 <center>OPPURE</center>
 <br>
-<a href="login.php"><input type="button" class="btn btn-block btn-primary" value="Accedi"></a>
+<a href="../../login.php"><input type="button" class="btn btn-block btn-primary" value="Accedi"></a>
 </div>
 </form>
 </div>
@@ -67,6 +102,7 @@ require_once('./conf/config.php');
 </div>
 <?php include_once('./conf/footer.php'); ?>
 </body>
+<?php include_once('./conf/google_analytics.php'); ?>
 <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 <script src="../../js/vendor/jquery-2.2.4.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>

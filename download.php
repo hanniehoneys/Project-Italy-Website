@@ -91,6 +91,7 @@ Dimensione: 3.96 GB<br><br>
 </div>
 <?php include_once('./conf/footer.php'); ?>
 </body>
+<?php include_once('./conf/google_analytics.php'); ?>
 <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 <script src="../../js/vendor/jquery-2.2.4.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>

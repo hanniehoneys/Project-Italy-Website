@@ -1,9 +1,11 @@
 <?php
 require_once('./conf/config.php');
 if (isset($_SESSION['player_id'])) {
-$check_info_player = $db->prepare('SELECT * FROM accounts');
-$check_info_player->fetchAll();
-
+$check_info_player = $db->prepare('SELECT * FROM accounts WHERE player_id = :player_id');
+$check_info_player->bindParam(':player_id', $_SESSION['player_id']);
+$check_info_player->execute();
+$info_player = $check_info_player->fetch();
+$check_info_player = null;
 
 }
 ?>
@@ -30,7 +32,7 @@ $check_info_player->fetchAll();
 </head>
 <body>
 <div id="preloader"></div>
-<?php include_once('conf/header_dashboard.php'); ?>
+<?php include_once('./conf/header_dashboard.php'); ?>
 <div class="page-area">
 <div class="breadcumb-overlay"></div>
 <div class="container">
@@ -75,32 +77,32 @@ $check_info_player->fetchAll();
 <table class="table">
 <tbody>
 <tr>
-<td width="50%">Player ID</td>
-<td width="50%">1</td>
+<td width="50%">ID Giocatore</td>
+<td width="50%"><?php echo $info_player['player_id']; ?></td>
 </tr>
 <tr>
 <td width="50%">Rank</td>
-<td width="50%"><img src="<?php echo $siteurl; ?>/img/rank/1.gif" alt="1"></td>
+<td width="50%"><img src="<?php echo $siteurl; ?>/img/rank/<?php echo $info_player['rank']; ?>.gif" alt="<?php echo $info_player['rank']; ?>"></td>
 </tr>
 <tr>
-<td width="50%">Username</td>
-<td width="50%">sicily94</td>
+<td width="50%">Nome Utente</td>
+<td width="50%"><?php echo $info_player['login']; ?></td>
 </tr>
 <tr>
-<td width="50%">Player Name</td>
-<td width="50%">Sicily94</td>
+<td width="50%">Nome Giocatore</td>
+<td width="50%"><?php echo $info_player['player_name']; ?></td>
 </tr>
 <tr>
 <td width="50%">Exp</td>
-<td width="50%">0</td>
+<td width="50%"><?php echo $info_player['exp']; ?></td>
 </tr>
 <tr>
 <td width="50%">Points</td>
-<td width="50%">0</td>
+<td width="50%"><?php echo $info_player['gp']; ?></td>
 </tr>
 <tr>
 <td width="50%">Cash</td>
-<td width="50%">0</td>
+<td width="50%"><?php echo $info_player['money']; ?></td>
 </tr>
 </tbody>
 </table>										
@@ -182,9 +184,9 @@ $check_info_player->fetchAll();
 </h4>
 </div>
 <div id="check4" class="panel-collapse collapse">
-<div class="panel-body"><p><button type="button" class="btn btn-primary">Modifica Nome Utente</button></p></div>
-<div class="panel-body"><p><button type="button" class="btn btn-primary">Modifica Email</button></p></div>
-<div class="panel-body"><p><button type="button" class="btn btn-primary">Modifica Password</button></p></div>
+<div class="panel-body"><p><a href="../../edit_login.php"><button type="button" class="btn btn-primary">Modifica Nome Utente</button></a></p></div>
+<div class="panel-body"><p><a href="../../edit_email.php"><button type="button" class="btn btn-primary">Modifica Email</button></a></p></div>
+<div class="panel-body"><p><a href="../../edit_password.php"><button type="button" class="btn btn-primary">Modifica Password</button></a></p></div>
 </div>
 </div>
 </div>
@@ -195,8 +197,9 @@ $check_info_player->fetchAll();
 </div>
 </div>
 <div class="clearfix"></div>
-<?php include_once('conf/footer.php'); ?>
+<?php include_once('./conf/footer.php'); ?>
 </body>
+<?php include_once('./conf/google_analytics.php'); ?>
 <script src="../../js/vendor/modernizr-2.8.3.min.js"></script>
 <script src="../../js/vendor/jquery-2.2.4.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
