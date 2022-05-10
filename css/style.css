@@ -375,17 +375,9 @@ div#preloader {
     background: #EC9123;
 }
 
-.bg-color-1 {
-    background: #0C1925;
-}
-
-.bg-color-2 {
-    background: #0d2134;
-}
-
-.last-item {
-    margin-bottom: 0px !important;
-}
+.bg-color-1 {background: #0C1925;}
+.bg-color-2 {background: #0d2134;}
+.last-item {margin-bottom: 0px !important;}
 
 .single-brand-item {
     display: inline;
@@ -405,9 +397,7 @@ div#preloader {
     z-index: 999;
 }
 
-.header-area {
-    background: rgba(16, 30, 44, 0.80) none repeat scroll 0 0;
-}
+.header-area {background: rgba(16, 30, 44, 0.80) none repeat scroll 0 0;}
 
 .logo a {
     display: inline-block;
@@ -431,9 +421,7 @@ div#preloader {
     margin: 0px 15px;
 }
 
-.main-menu ul.navbar-nav li a:hover {
-    color: #EC9123;
-}
+.main-menu ul.navbar-nav li a:hover {color: #EC9123;}
 
 .main-menu ul.navbar-nav>li>a::before {
     background: #EC9123;
@@ -451,9 +439,7 @@ div#preloader {
     width: 100%;
 }
 
-.main-menu ul.navbar-nav li.active a:focus {
-    color: #333;
-}
+.main-menu ul.navbar-nav li.active a:focus {color: #333;}
 
 .main-menu ul.navbar-nav li.active a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -533,9 +519,7 @@ div#preloader {
     background: #EC9123;
 }
 
-.main-menu ul.nav li:hover ul.sub-menu>li:last-child a:hover {
-    border-radius: 0px 0px 10px 10px;
-}
+.main-menu ul.nav li:hover ul.sub-menu>li:last-child a:hover {border-radius: 0px 0px 10px 10px;}
 
 .main-menu ul.nav li ul.sub-menu li:last-child {
     border: none;
@@ -598,9 +582,7 @@ div#preloader {
     line-height: 40px;
 }
 
-.header-right-link a.main-search:hover {
-    color: #EC9123;
-}
+.header-right-link a.main-search:hover {color: #EC9123;}
 
 /*--------------------------------*/
 
