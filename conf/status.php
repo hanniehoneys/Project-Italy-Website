@@ -1,7 +1,4 @@
-<?php
-include_once('./conf/config.php');
-
-?>
+<?php require_once('./conf/config.php'); ?>
 
 <div class="About-feature-area bg-color-1">
 <div class="container">
@@ -16,7 +13,7 @@ include_once('./conf/config.php');
 <div class="single-about">
 <div class="feature-icon"><i class="fa fa-users"></i></div>
 <div class="feature-text">
-<h4>Utenti Registrati: <span class="pull-right" style="color:#EC9123"><?php echo $check_user_register = $db->query('SELECT * FROM accounts')->rowCount(); ?></span></h4>
+<h4>Utenti Registrati: <span class="pull-right" style="color:#EC9123"><?php echo $check_user_register = $db->query('SELECT * FROM accounts')->rowCount(); $check_user_register = null; ?></span></h4>
 </div>
 </div>
 </div>
@@ -35,11 +32,6 @@ include_once('./conf/config.php');
 <?php }else{ ?>
 <p>Game: <span class="pull-right" style="color:#EC9123">OFFLINE</span></p>
 <?php } ?>
-<?php if ($checkbattleport) { ?>
-<p>Battle: <span class="pull-right" style="color:#EC9123">ONLINE</span></p>
-<?php }else{ ?>
-<p>Battle: <span class="pull-right" style="color:#EC9123">OFFLINE</span></p>
-<?php } ?>
 </div>
 </div>
 </div>
@@ -47,7 +39,7 @@ include_once('./conf/config.php');
 <div class="single-about">
 <div class="feature-icon"><i class="fa fa-gamepad"></i></div>
 <div class="feature-text">
-<h4>Utenti Online: <span class="pull-right" style="color:#EC9123"><?php echo $check_user_online = $db->query("SELECT * FROM accounts WHERE online = 't'")->rowCount(); ?></span></h4>
+<h4>Utenti Online: <span class="pull-right" style="color:#EC9123"><?php echo $check_user_online = $db->query("SELECT * FROM accounts WHERE online = 't'")->rowCount(); $check_user_online = null; ?></span></h4>
 </div>
 </div>
 </div>

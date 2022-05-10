@@ -1,6 +1,4 @@
-<?php
-
-?>
+<?php require_once('./conf/config.php'); ?>
 <footer>
 <div class="footer-area">
 <div class="container">
@@ -55,7 +53,8 @@
 <div class="container">
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12">
-<div class="copyright"><p>Copyright © <?php echo date("Y");?>. <br />Template: <a href="/">Cavalier Games Studio HTML</a>. Coding by <a href="/"><?php echo $sitename;?></a>. <br />Tutti i diritti sono riservati.</p></div>
+<div class="copyright">
+<p>Copyright © <?php echo date("Y");?>. <br />Template: <a href="/">Cavalier Games Studio HTML</a>. Coding by <a href="/"><?php echo $sitename;?></a>. <br />Tutti i diritti sono riservati.</p></div>
 </div>
 </div>
 </div>

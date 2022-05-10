@@ -1,7 +1,5 @@
-<?php
-
-
-?>
+<?php require_once('./conf/config.php'); ?>
+<?php if (isset($_SESSION['player_id'])) { ?>
 <header class="header-one">
 <div id="sticker" class="header-area hidden-xs">
 <div class="container">
@@ -24,12 +22,12 @@
 </ul>
 </li>
 <li><a href="../../download.php">Scarica il Gioco</a></li>
-<li>
-<a class="pagess" href="/">Pannello Utente</a>
+<li class="active">
+<a class="pagess" href="../../dashboard.php">Pannello Utente</a>
 <ul class="sub-menu">
 <li><a href="../../dashboard.php">Pannello Utente</a></li>
-<li><a href="#">Cambia Password</a></li>
-<li><a href="#">Riscatta Codice</a></li>
+<li><a href="../../edit_password.php">Modifica Password</a></li>
+<li><a href="../../redeem_code.php">Riscatta Codice</a></li>
 <li><a href="../../conf/disconnect.php">Esci</a></li>
 </ul>
 </li>
@@ -60,11 +58,11 @@
 </li>
 <li><a href="../../download.php">Scarica il Gioco</a></li>
 <li>
-<a class="pagess" href="/">Pannello Utente</a>
+<a class="pagess" href="../../dashboard.php">Pannello Utente</a>
 <ul class="sub-menu">
 <li><a href="../../dashboard.php">Pannello Utente</a></li>
-<li><a href="#">Cambia Password</a></li>
-<li><a href="#">Riscatta Codice</a></li>
+<li><a href="../../edit_password.php">Modifica Password</a></li>
+<li><a href="../../redeem_code.php">Riscatta Codice</a></li>
 <li><a href="../../conf/disconnect.php">Esci</a></li>
 </ul>
 </li>
@@ -76,3 +74,4 @@
 </div>
 </div>
 </header>
+<?php } ?>
